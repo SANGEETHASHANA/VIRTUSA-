@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        int i,j,c=0;
+        int l=s.length();
+        for(i=0;i<l;i++)
+        {
+            for(j=l-1;j>0;j--)
+            {
+                if(s.charAt(i)==s.charAt(j))
+                {
+                    c=1;
+                }
+            }
+        }
+        if(c==1)
+        System.out.println("Palindrome");
+    }
+}
