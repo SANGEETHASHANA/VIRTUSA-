@@ -1,0 +1,30 @@
+
+import java.util.*;
+public class Main {
+	public static void main(String[]args) {
+		Scanner in=new Scanner(System.in);
+		String s=in.nextLine();
+	    String a[]=s.split(" ");
+	    String w="",d="";
+	    for(int i=0;i<a.length;i++) {
+	    	w=a[i];
+	    	d="";
+	    
+	    for(int j=w.length()-1;j>=0;j--) {
+	    
+	    	d=d+w.charAt(j)+"";
+	    
+	    	}
+	    
+	    if(d.contains(w))
+	    {
+	    	System.out.print(d);
+	    }
+	    else
+	    	System.out.print(" ");
+	    }
+		
+	}
+
+}
+
