@@ -1,0 +1,17 @@
+using System;
+namespace Explicit
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            double c=75.123;
+            int b;
+            b=(int)c;
+             Console.WriteLine(b);
+             Console.WriteLine(c);
+    }
+        }
+    
+}
