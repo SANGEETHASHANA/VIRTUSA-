@@ -1,0 +1,15 @@
+using System;
+namespace Implicit
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a=75;
+            double c=a;
+             Console.WriteLine(a);
+             Console.WriteLine(c);
+    }
+        }
+    
+}
